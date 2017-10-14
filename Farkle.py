@@ -2,6 +2,8 @@ import math
 import random
 import time
 
+LINK = 'http://howdoyouplayit.com/farkle-dice-game-rules/'
+
 numplayer = int(input('How many players are there?\n'))
 while type(numplayer) is not int:
     numplayer = int(input('Please put a positive whole number. How many players are there?\n'))
